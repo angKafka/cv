@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+@layer base {
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f8fafc;
+        color: #334155;
+        @apply scroll-smooth;
+    }
+}
+
+@layer components {
+    /* Navigation Link Styles */
+    .nav-link {
+        @apply transition-colors duration-300;
+    }
+    .nav-link.active,
+    .nav-link:hover {
+        @apply text-amber-500;
+    }
+
+    /* Timeline Item Styles */
+    .timeline-item {
+        @apply relative cursor-pointer;
+    }
+    .timeline-item::before {
+        content: '';
+        @apply absolute -left-5 top-1.5 w-2.5 h-2.5 rounded-full bg-amber-500 border-2 border-slate-50;
+    }
+
+    /* Section Title Styles */
+    .section-title {
+        @apply relative pb-2 mb-8;
+    }
+    .section-title::after {
+        content: '';
+        @apply absolute bottom-0 left-0 w-[50px] h-0.5 bg-amber-500;
+    }
+
+    /* Skills Chart Filter Button Styles */
+    .skill-filter-btn {
+        @apply px-4 py-2 rounded-full text-sm font-medium transition-colors duration-300;
+    }
+    .skill-filter-btn:not(.active) {
+        @apply bg-white text-slate-600 border border-slate-200 hover:bg-slate-100;
+    }
+    .skill-filter-btn.active {
+        @apply bg-amber-500 text-white border-transparent;
+    }
+
+    /* Chart Container Styles */
+    .chart-container {
+        @apply relative w-full max-w-[800px] mx-auto h-[400px] max-h-[50vh] md:h-[500px];
+    }
+}
+
+body {
+    /* ... existing styles ... */
+    background: linear-gradient(135deg, #e2e8f0, #cbd5e1);
+    background-attachment: fixed;
+}
+
