@@ -42,7 +42,7 @@ const Skills = () => {
         <section id="skills" className="mb-24">
             <h2 className="text-3xl font-bold text-slate-800 section-title">Technical Skills</h2>
             <p className="text-lg mb-8 text-center">
-                This chart showcases my technical skills. You can click the buttons below to filter by category and see the specific technologies I've worked with. This provides a quick way to see if my skill set aligns with your needs.
+                This chart showcases my technical skills. You can click the buttons below to filter by category and see the specific technologies I have worked with. This provides a quick way to see if my skill set aligns with your needs.
             </p>
             <div className="flex justify-center flex-wrap gap-2 mb-8">
                 {Object.keys(resumeData.skills).map((category) => (

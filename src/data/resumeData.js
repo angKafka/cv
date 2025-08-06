@@ -58,10 +58,12 @@ const resumeData = {
     skills: {
         languages: ["Java", "SQL"],
         frameworks: ["Spring Boot", "Spring Kafka", "Spring Security", "Spring Framework", "Spring Data JPA", "JDBC"],
-        tools: ["Docker", "Kubernetes", "Jenkins", "Git", "Postman", "Swagger", "SonarQube", "Jira", "IntelliJ IDEA"],
+        tools: ["Docker", "Kubernetes", "Jenkins", "Git", "Postman", "Swagger", "SonarQube", "Jira", "IntelliJ IDEA", "CI/CD", "Redis", "EhCache", "Azure Devops", "Github"],
         platforms: ["GCP", "AWS", "Azure", "Linux"],
-        databases: ["PostgreSQL", "MySQL", "Apache Kafka", "ActiveMQ", "Redis", "EhCache"],
-        cloud: ["Microservices", "CI/CD", "SOLID", "Low-Level Design", "Asynchronous Programming", "OAuth2", "JWT"]
+        databases: ["PostgreSQL", "MySQL"],
+        messaging: ["Apache Kafka", "ActiveMQ"],
+        architecture: ["Microservices", "Monolith" , "SOLID", "Low-Level Design"],
+        awareness: ["Asynchronous Programming", "OAuth2", "JWT"]
     }
 };
 
