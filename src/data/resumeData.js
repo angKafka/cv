@@ -59,11 +59,11 @@ const resumeData = {
         languages: ["Java", "SQL"],
         frameworks: ["Spring Boot", "Spring Kafka", "Spring Security", "Spring Framework", "Spring Data JPA", "JDBC"],
         tools: ["Docker", "Kubernetes", "Jenkins", "Git", "Postman", "Swagger", "SonarQube", "Jira", "IntelliJ IDEA", "CI/CD", "Redis", "EhCache", "Azure Devops", "Github"],
-        platforms: ["GCP", "AWS", "Azure", "Linux"],
+        platforms: ["GCP", "AWS", "Azure"],
         databases: ["PostgreSQL", "MySQL"],
         messaging: ["Apache Kafka", "ActiveMQ"],
         architecture: ["Microservices", "Monolith" , "SOLID", "Low-Level Design"],
-        awareness: ["Asynchronous Programming", "OAuth2", "JWT"]
+        awareness: ["Asynchronous Programming", "OAuth2", "JWT", "Ollama", "Mistal Model", "IAM", "SSO", "Linux"]
     }
 };
 
